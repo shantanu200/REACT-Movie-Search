@@ -8,7 +8,7 @@ const Main = () => {
   const [movie,setMovie] = useState({
     movieName: ""
   });
-  const [isSerach,setIsSearch] = useState(true);
+  const [isSerach,setIsSearch] = useState(false);
 
   const handleInput = (e) => {
     const {name,value} = e.target;
