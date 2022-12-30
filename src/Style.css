@@ -130,6 +130,11 @@ p{
     text-align: center;
 }
 
+.noFound{
+    color: #ffffff;
+    text-align: center;
+}
+
 @media screen and (max-width:600px){
     .container{
         font-size: 14px;
